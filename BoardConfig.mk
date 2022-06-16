@@ -66,20 +66,3 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_NTFS_3G := true
 TW_NO_EXFAT_FUSE := true
 
-# SHRP flags
-SHRP_PATH := device/samsung/gtaxllte
-SHRP_MAINTAINER := MiDoNaSR545
-SHRP_DEVICE_CODE := gtaxllte
-SHRP_EDL_MODE := 0
-SHRP_EXTERNAL := /external_sd
-SHRP_INTERNAL := /sdcard
-SHRP_OTG := /usb_otg
-SHRP_FLASH := 1
-SHRP_FLASH_MAX_BRIGHTNESS := 200
-SHRP_REC := /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
-SHRP_AB := false
-SHRP_REC_TYPE := Treble
-SHRP_DEVICE_TYPE := A_Only
-SHRP_DARK := true
-SHRP_EXPRESS := true
-SHRP_OFFICIAL := false
